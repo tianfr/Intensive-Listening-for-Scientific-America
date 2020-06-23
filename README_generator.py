@@ -3,7 +3,10 @@ curr_path = os.getcwd()
 tar = "\-\-\-.*?\-\-\-"
 prev_text = """
 # Intensive-Listening-for-Scientific-America
-Intensive Listening and Learning English\n
+Intensive Listening and Learning English
+Author： ***CalmCat***
+
+
 """
 def process_file(file):
     print(file)
