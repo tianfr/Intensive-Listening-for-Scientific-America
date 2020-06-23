@@ -3,7 +3,7 @@ curr_path = os.getcwd()
 tar = "\-\-\-.*?\-\-\-"
 prev_text = """
 # Intensive-Listening-for-Scientific-America
-Intensive Listening and Learning English
+Intensive Listening and Learning English\n\n
 Author： ***CalmCat***
 
 
@@ -51,7 +51,7 @@ def main():
             
             for key in keys:
                 write_str += key + ": **" + each_dic[key].strip() + "** "
-            write_str += "\n"
+            write_str += "\n\n"
         print(write_str)
         f.write(write_str)
 main()
