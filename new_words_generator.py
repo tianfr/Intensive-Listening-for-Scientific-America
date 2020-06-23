@@ -28,7 +28,7 @@ def process_file(file):
     print("Words"+"\t\t\t\t\t"+"Descrptions")
     print("-"*60)
     for word in words:
-
+        # print(word)
         Eng, Chi = word.strip("*").split("\\trans")
         print(Eng+"\t\t\t\t\t"+Chi)
         rs.append([Eng, Chi])

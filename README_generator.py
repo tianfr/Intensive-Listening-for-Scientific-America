@@ -4,7 +4,7 @@ tar = "\-\-\-.*?\-\-\-"
 prev_text = """
 # Intensive-Listening-for-Scientific-America
 Intensive Listening and Learning English\n\n
-Author： ***CalmCat***
+Author: ***CalmCat***
 
 
 """
